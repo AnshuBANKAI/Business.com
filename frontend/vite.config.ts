@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // In development the React app (5173) proxies API calls and uploaded images to the Express server (4000),
 // so the browser sees a single origin — the same setup as production.
-const api = { target: 'http://localhost:4000', changeOrigin: false };
+const api = { target: 'https://business-api-xi42.onrender.com/', changeOrigin: false };
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
