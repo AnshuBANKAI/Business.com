@@ -1,0 +1,426 @@
+{
+  "settings": {
+    "headline": "I build MVPs and AI features for early-stage startups.",
+    "subheadline": "Full-stack developer (React, Node, MongoDB) with hands-on generative-AI experience. I take products from idea to a live, working release.",
+    "availability": "Taking on new projects",
+    "email": "sharmaanshu6572@gmail.com",
+    "bookingUrl": "",
+    "linkedin": "https://www.linkedin.com/in/anshu-sharma-2205a1204",
+    "github": "https://github.com/AnshuBANKAI",
+    "location": "Ranchi, Jharkhand, India",
+    "about": "I’m a full-stack developer with hands-on experience in the MERN stack and generative AI. I built SevSetu, a multilingual RAG chatbot that delivers government scheme information in Bhojpuri, Hindi and English, and Recruit AI, a full-stack interview-prep platform that scores resume–job fit and generates tailored resumes. I work directly with founders, keep scope clear, and ship in small, reviewable milestones.",
+    "brandName": "Anshu Sharma",
+    "legalName": "",
+    "address": "",
+    "gstin": "",
+    "whatsapp": "",
+    "grievanceName": "Anshu Sharma",
+    "grievanceEmail": "sharmaanshu6572@gmail.com",
+    "responseTime": "1–2 working days",
+    "workingHours": "",
+    "commitments": [
+      "Weekly progress updates in your client portal",
+      "You own the code once the final invoice is paid",
+      "NDA available on request",
+      "Clear scope and milestones before work starts"
+    ]
+  },
+  "services": [
+    {
+      "title": "MVP & Product Development",
+      "summary": "Turn an idea into a working, deployed product your first users can try.",
+      "bullets": [
+        "React front end + Node/Express API",
+        "MongoDB data modelling and authentication",
+        "Deployment and handover documentation"
+      ],
+      "startingPrice": "Custom quote",
+      "order": 1
+    },
+    {
+      "title": "AI & LLM Features",
+      "summary": "Add practical generative-AI features to a new or existing product.",
+      "bullets": [
+        "RAG chatbots over your own documents",
+        "Gemini / LLM API integration",
+        "Multilingual and document-analysis workflows"
+      ],
+      "startingPrice": "Custom quote",
+      "order": 2
+    },
+    {
+      "title": "Backend, APIs & Integrations",
+      "summary": "Reliable server-side work for products that already exist.",
+      "bullets": [
+        "REST API design and documentation",
+        "Third-party integrations and webhooks",
+        "Performance and security clean-up"
+      ],
+      "startingPrice": "Custom quote",
+      "order": 3
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How does a project start?",
+      "answer": "You send the enquiry form, we have a short call to understand the goal, and I reply with a scope, timeline and quote. Work starts once the scope is agreed.",
+      "order": 1
+    },
+    {
+      "question": "How will I see progress?",
+      "answer": "Every client gets a private portal with milestones, shared files and a message thread. You approve each milestone before the next one begins.",
+      "order": 2
+    },
+    {
+      "question": "Who owns the code?",
+      "answer": "You do. Source code and assets are handed over on final payment, with the agreement set out in the contract before work begins.",
+      "order": 3
+    },
+    {
+      "question": "Do you work with early-stage teams?",
+      "answer": "Yes. Most of my work is with founders who need a first version built quickly and sensibly, without over-engineering.",
+      "order": 4
+    }
+  ],
+  "projects": [
+    {
+      "title": "SevSetu",
+      "slug": "sevsetu",
+      "year": "2026",
+      "genre": "AI • NLP • LLM",
+      "logline": "A multilingual generative-AI chatbot that explains government schemes in Bhojpuri, Hindi and English.",
+      "problem": "Many government notifications are published in English or formal Hindi, so people who speak regional languages like Bhojpuri, or who don’t read well, miss out on schemes meant for them.",
+      "solution": "Users ask questions in Hindi, Bhojpuri or English and get clear, simple, actionable answers about schemes such as PM Kisan, Atal Pension Yojana and PMAY.",
+      "stack": [
+        "Python",
+        "NLP",
+        "LLM",
+        "FastAPI",
+        "React"
+      ],
+      "features": [
+        "LLM-based Q&A over government schemes",
+        "Key-information extraction",
+        "FastAPI integration for 10+ document types",
+        "Web, browser extension, mobile and desktop apps",
+        "Real-time updates"
+      ],
+      "metrics": [
+        {
+          "value": "500+",
+          "label": "government scheme services"
+        },
+        {
+          "value": "92%",
+          "label": "accuracy"
+        },
+        {
+          "value": "60%",
+          "label": "less manual review time"
+        },
+        {
+          "value": "45%",
+          "label": "faster decision turnaround"
+        }
+      ],
+      "github": "https://github.com/AnshuBANKAI/SevSetu",
+      "accent": "#c73e1d",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "title": "Recruit AI",
+      "slug": "recruit-ai",
+      "year": "2026",
+      "genre": "Full-stack • Gemini API",
+      "logline": "An AI interview-prep platform that scores resume–job fit and builds a personal prep plan.",
+      "problem": "Job seekers don’t know how well their resume fits a role, what questions to expect, or how to prepare. Generic interview advice doesn’t use their own profile or the specific job description.",
+      "solution": "The user uploads a resume and pastes a job description; Gemini generates a match score, technical and behavioural questions with model answers, skill gaps and a day-wise prep plan. It can also produce a tailored, ATS-friendly resume PDF. JWT login lets users reopen saved reports.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "Gemini API",
+        "React",
+        "MongoDB",
+        "Zod"
+      ],
+      "features": [
+        "Resume upload",
+        "Strict processing → success / failed state handling",
+        "Two-way binding between front end and back end",
+        "Gemini API integration for AI-powered analysis"
+      ],
+      "metrics": [
+        {
+          "value": "1,000+",
+          "label": "interview reports generated"
+        },
+        {
+          "value": "70%",
+          "label": "less manual review time"
+        }
+      ],
+      "github": "https://github.com/AnshuBANKAI/Recruit_AI",
+      "accent": "#c9a227",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "title": "Hospital Bill Predictor",
+      "slug": "hospital-bill-predictor",
+      "year": "2025",
+      "genre": "Machine learning • Streamlit",
+      "logline": "A model that predicts hospital bills from patient data and treatment plans.",
+      "problem": "",
+      "solution": "Trained and evaluated a Random Forest regression model that predicts hospital expenses from patient data with roughly 90% accuracy, then shipped an interactive Streamlit interface for real-time predictions.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Flask"
+      ],
+      "features": [
+        "Random Forest regression model",
+        "Streamlit interface for real-time predictions",
+        "Data preprocessing and feature engineering",
+        "Model evaluation and performance metrics"
+      ],
+      "metrics": [
+        {
+          "value": "~90%",
+          "label": "prediction accuracy"
+        }
+      ],
+      "github": "https://github.com/AnshuBANKAI/Hospital-bills-",
+      "accent": "#3a5f9a",
+      "order": 3
+    }
+  ],
+  "skillGroups": [
+    {
+      "title": "Languages",
+      "subtitle": "JavaScript is the primary language",
+      "skills": [
+        "JavaScript",
+        "Python"
+      ],
+      "order": 1
+    },
+    {
+      "title": "Frontend",
+      "subtitle": "Interfaces & the web platform",
+      "skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "order": 2
+    },
+    {
+      "title": "Backend",
+      "subtitle": "Server-side logic",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "Python"
+      ],
+      "order": 3
+    },
+    {
+      "title": "Infra & Tools",
+      "subtitle": "Shipping & architecture",
+      "skills": [
+        "Docker",
+        "Docker Compose",
+        "REST APIs",
+        "Microservices",
+        "JWT Auth",
+        "Git / GitHub",
+        "Postman"
+      ],
+      "order": 4
+    },
+    {
+      "title": "Databases",
+      "subtitle": "Indexing • Normalization",
+      "skills": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "order": 5
+    },
+    {
+      "title": "AI & LLMs",
+      "subtitle": "Practical generative-AI features",
+      "skills": [
+        "Generative AI",
+        "Gemini API",
+        "RAG chatbots",
+        "LLM integration"
+      ],
+      "order": 6
+    },
+    {
+      "title": "CS Fundamentals",
+      "subtitle": "The foundations",
+      "skills": [
+        "DSA",
+        "OS",
+        "CN",
+        "DBMS",
+        "OOPs"
+      ],
+      "order": 7
+    },
+    {
+      "title": "Interests",
+      "subtitle": "Currently exploring",
+      "skills": [
+        "System Design",
+        "Cloud Computing (AWS)",
+        "Machine Learning"
+      ],
+      "order": 8
+    }
+  ],
+  "experience": [
+    {
+      "role": "Internship",
+      "company": "Techoctanet Services Pvt. Ltd. (OctaNet)",
+      "period": "July 2025 – Aug 2025",
+      "place": "Remote",
+      "points": [
+        "Built a responsive full-stack web application spanning front-end and back-end components.",
+        "Implemented and optimized REST API integrations between the front end and back end.",
+        "Deployed and managed web applications while applying version control, debugging, and end-to-end development practices."
+      ],
+      "order": 1
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology — Computer Science And Engineering",
+      "school": "Ramgarh Engineering College",
+      "place": "Ramgarh, Jharkhand",
+      "period": "October 2022 – June 2026",
+      "score": "CGPA 7.43",
+      "order": 1
+    },
+    {
+      "degree": "Diploma",
+      "school": "KK College of Engineering and Management",
+      "place": "Dhanbad",
+      "period": "August 2019 - July 2022",
+      "score": "Score 79%",
+      "order": 2
+    },
+    {
+      "degree": "Matriculation",
+      "school": "Dav Public School",
+      "place": "Bachra",
+      "period": "May 2019",
+      "score": "Score 67%",
+      "order": 3
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Deloitte Australia - Data Analytics Job Simulation",
+      "issuer": "Forage",
+      "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_W68PJsr5CjcwvSCWg_1750705021902_completion_certificate.pdf",
+      "order": 1
+    },
+    {
+      "name": "Data Analysis Using Python",
+      "issuer": "IBM",
+      "link": "https://www.credly.com/badges/45e394ac-edc0-4997-8544-6ec474fd197c/linked_in_profile",
+      "order": 2
+    },
+    {
+      "name": "Python Essentials 1",
+      "issuer": "Cisco",
+      "link": "https://www.credly.com/badges/ad4aee3b-8bc7-4f74-8531-8a9d52114f99/linked_in_profile",
+      "order": 3
+    },
+    {
+      "name": "Web Development Fundamentals",
+      "issuer": "IBM",
+      "link": "https://www.credly.com/badges/1e9a0994-ff2f-4c1c-b7f9-332a217fab2b/linked_in_profile",
+      "order": 4
+    },
+    {
+      "name": "Python Essentials 2",
+      "issuer": "Cisco",
+      "link": "https://www.credly.com/badges/5ad31c3b-75dd-4c1d-9ab5-c146c161ae7e/linked_in_profile",
+      "order": 5
+    },
+    {
+      "name": "Full stack Developer",
+      "issuer": "GeeksForGeeks",
+      "link": "https://lnkd.in/p/d_5JiiUy",
+      "order": 6
+    },
+    {
+      "name": "Data Science",
+      "issuer": "CodeSoft",
+      "link": "https://lnkd.in/p/dYngYueA",
+      "order": 7
+    },
+    {
+      "name": "Remote Sensing Data Analytics",
+      "issuer": "ISRO",
+      "link": "https://lnkd.in/p/dD7axUdG",
+      "order": 8
+    },
+    {
+      "name": "Data Science",
+      "issuer": "Simplilearn",
+      "link": "https://lnkd.in/p/dsBjPM4z",
+      "order": 9
+    },
+    {
+      "name": "Data Science & Analysis",
+      "issuer": "HP LIFE",
+      "link": "https://lnkd.in/p/dsDjBYuW",
+      "order": 10
+    },
+    {
+      "name": "Artificial Intelligence Fundamentals",
+      "issuer": "Great Learning",
+      "link": "https://lnkd.in/p/dc69Mp5c",
+      "order": 11
+    },
+    {
+      "name": "Introduction to Web Designing",
+      "issuer": "Great Learning",
+      "link": "https://lnkd.in/p/dsSKcRDw",
+      "order": 12
+    },
+    {
+      "name": "Deloitte Australia - Cybersecurity on Forage",
+      "issuer": "Deloitte",
+      "link": "https://lnkd.in/p/dZqgNA-e",
+      "order": 13
+    },
+    {
+      "name": "JavaScript Essentials 1",
+      "issuer": "Cisco",
+      "link": "https://lnkd.in/p/dGN2WX9v",
+      "order": 14
+    }
+  ],
+  "posts": [
+    {
+      "title": "How a typical project runs with me: from first call to launch",
+      "slug": "how-a-project-runs",
+      "excerpt": "What happens between your first message and a live product: discovery, scope, milestones you approve, and handover.",
+      "body": "If you're hiring a freelance developer for the first time, the biggest worry is usually not the code. It's **not knowing what happens next**. Here's the process I follow, so you can judge whether it suits you.\n\n## 1. Discovery call\nA short call to understand the goal, who the product is for, and what a successful first version looks like. I'll ask about deadlines, budget range and anything that's already built.\n\n## 2. Written scope and quote\nYou receive a written proposal with the deliverables, timeline, price and payment schedule. You can accept it online in your client portal. Nothing starts until the scope is agreed.\n\n## 3. Milestones you approve\nWork is delivered in small, reviewable milestones. Each one appears in your portal; you either approve it or request changes. The next stage only begins once you're happy.\n\n## 4. Weekly updates\nYou'll see progress in the portal and get a short update every week, so there are no surprises.\n\n## 5. Launch and handover\nI deploy the product, hand over the source code and documentation, and the code is yours once the final invoice is paid.\n\n## Want to talk about your project?\nTell me what you're building using the form on the contact section, and I'll reply within 1–2 working days.",
+      "tags": [
+        "process",
+        "freelancing",
+        "MVP"
+      ],
+      "published": false
+    }
+  ]
+}

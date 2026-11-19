@@ -1,0 +1,24 @@
+{
+  "name": "anshu-studio",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "npm --prefix frontend install --include=dev && npm --prefix backend install",
+    "dev": "concurrently -n web,api -c cyan,magenta \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
+    "dev:web": "npm --prefix frontend run dev",
+    "dev:api": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "seed": "npm --prefix backend run seed",
+    "images": "npm --prefix frontend run images",
+    "test:api": "npm --prefix backend test",
+    "backup": "cd backend && ./scripts/backup.sh",
+    "recover": "npm --prefix backend run recover --"
+  },
+  "devDependencies": {
+    "concurrently": "9.1.2"
+  }
+}

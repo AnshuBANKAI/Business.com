@@ -1,0 +1,55 @@
+# Render Blueprint: one web service that serves the React app and the API together.
+# NOTE: persistent disks and always-on behaviour need a paid instance type. Free instances sleep after
+# inactivity and have no persistent disk (uploaded files would be lost on redeploy). Check Render's pricing page.
+# This file has not been run against a live Render account; review each value in the dashboard on first deploy.
+services:
+  - type: web
+    name: anshu-studio
+    runtime: node
+    plan: starter
+    region: singapore
+    buildCommand: npm --prefix frontend install --include=dev && npm --prefix frontend run build && npm --prefix backend install
+    startCommand: npm --prefix backend start
+    healthCheckPath: /api/ready
+    autoDeploy: true
+    disk:
+      name: uploads
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: TZ
+        value: Asia/Kolkata
+      - key: UPLOAD_DIR
+        value: /var/data/uploads
+      # Random secrets generated once by Render
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATA_ENCRYPTION_KEY
+        generateValue: true
+      - key: CRON_SECRET
+        generateValue: true
+      # You fill these in the dashboard
+      - key: MONGODB_URI
+        sync: false
+      - key: PUBLIC_URL
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: OWNER_EMAIL
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: MAIL_FROM
+        sync: false
